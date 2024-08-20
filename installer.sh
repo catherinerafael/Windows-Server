@@ -34,7 +34,7 @@ case $choice in
     2)
         # Windows Server 2019
         img_file="windows10pro.img"
-        iso_link="https://download1321.mediafire.com/ey92kdii9hogQWSXWBc8qj7ek9KEn9XypP6y7TYC-PgWlRGMX4_GCMgWnJduyg4XpoDoq4_em9T98o7Wdma4IJslx2_jl60hNF7EtjjnM8TGcoKJXReoK-NFg6B_M5lCu9pDWljcMHDdS0MNk4rRftdHURg9LaOhfEPxUxzcyaOWGjs/fgcl3fy6rck26ol/Win10_22H2_English_x64v1.iso"
+        iso_link="139.59.254.157/windows10pro.iso"
         iso_file="windows10pro.iso"
         ;;
     3)
