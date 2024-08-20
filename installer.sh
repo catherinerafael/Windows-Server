@@ -4,7 +4,7 @@
 display_menu() {
     echo "Please select the Windows Server version:"
     echo "1. Windows 10 Enterprise"
-    echo "2. Windows Server 2019"
+    echo "2. Windows 10 Pro"
     echo "3. Windows Server 2022"
     read -p "Enter your choice: " choice
 }
@@ -33,9 +33,9 @@ case $choice in
         ;;
     2)
         # Windows Server 2019
-        img_file="windows2019.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
-        iso_file="windows2019.iso"
+        img_file="windows10pro.img"
+        iso_link="https://ia601808.us.archive.org/3/items/Win10_22H2_English_x64v1/Win10_22H2_English_x64v1.iso"
+        iso_file="windows10pro.iso"
         ;;
     3)
         # Windows Server 2022
